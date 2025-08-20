@@ -11,7 +11,6 @@ A multiplexer is a digital switch that selects one of two inputs (`A` or `B`) ba
 | 0          | A | B | A           |
 | 1          | A | B | B           |
 
----
 
 ## 📂 Files in this Repository
 - **`_2to1_MUX.vhd`** → VHDL source code (Design Under Test - DUT)  
@@ -21,7 +20,7 @@ A multiplexer is a digital switch that selects one of two inputs (`A` or `B`) ba
 - **`93_2to1_MUX.mpf`** → ModelSim project file  
 - **`transcript`** → Simulation log file  
 
----
+
 
 ## 🛠️ Simulation Instructions (ModelSim)
 1. Open ModelSim.  
@@ -37,7 +36,7 @@ A multiplexer is a digital switch that selects one of two inputs (`A` or `B`) ba
    add wave *
    run 16 ns
 
----
+
 
 ## Expected Output Table
 
@@ -51,8 +50,8 @@ A multiplexer is a digital switch that selects one of two inputs (`A` or `B`) ba
 | 6         | 0 | 1 | 1 | 1            |
 | 7         | 1 | 0 | 1 | 0            |
 | 8         | 1 | 1 | 1 | 1            |
+##
 
----
 
    ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
