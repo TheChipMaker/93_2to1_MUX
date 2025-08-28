@@ -3,7 +3,7 @@
 ## Project Overview
 This project implements a **2-to-1 Multiplexer (MUX)** in **VHDL**.  
 A multiplexer is a digital switch that selects one of two inputs (`A` or `B`) based on a select line (`S`) and forwards it to the output (`Y`).
-
+This project is **synthesizable** and suitable for **Synopsys tools**, and simulation is done using **ModelSim**.
 **Truth Table:**
 
 | S (Select) | A | B | Y (Output) |
